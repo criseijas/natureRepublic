@@ -1,0 +1,50 @@
+.acerca__container{
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+.acerca__titulo{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.info{
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .acerca__container{
+        width: 80%;
+    }
+
+    .acerca__titulo{
+        font-size: 1.3rem;
+    }
+
+    .info{
+        text-align: justify;
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:1024px){
+
+    .acerca__container{
+        width: 80%;
+    }
+
+    .acerca__titulo{
+        font-size: 1.5rem;
+    }
+
+    .info{
+        text-align: justify;
+        font-size: 1.3rem;
+    }
+    
+}
+
